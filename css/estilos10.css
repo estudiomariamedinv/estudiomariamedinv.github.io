@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:url(../img/pexels.jpg);
+	font-family: Arial;
+	background-size: cover;
+	width:100%;
+	height:500px;
+}
+.box{
+	width: 550px;
+	background: rgba(208, 236, 231, 0.8);
+	margin: 0 auto;
+	margin-top: 65%;
+	padding: 30px;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+.title_body h1{
+	text-align: center;
+	font-size: 45px;
+	margin: 15 0px 10px;
+	color:white;
+	text-shadow: 0px 0px 20px #000;
+}
+.title_body h4{
+	text-align: center;
+	font-size: 23px;
+	margin: 15 0px 60px;
+	color:#6B716E ;
+}
+
+.contenedor {
+	width: 70%;
+	max-width: 900px;
+	margin: auto;
+	height: 80vh;/vh= ventana horizontal/
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.tabla {
+	margin-top: 100px;
+	width: 300px;
+	height: 650px;
+	margin: auto;
+	border:  1px sol #A93226;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #343759;
+	padding: 60px;
+	text-align: center;
+	flex-grow: 1;
+	color: #343759;
+
+}
+
+.tabla>h2{
+	font-size: 20px;
+	margin-top: 45px;
+}
+
+.tabla img{
+width: 50px;
+height: 50px;
+margin-top: 55px;
+}
+
+.tabla> h3{
+	font-size: 30px;
+	border-bottom: 20px;
+	margin-top: 40px;
+}
+
+.tabla> p{
+	display: block;
+	border-bottom: 20px;
+	margin-top: 40px;
+}
+
+.boton {
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background:#4C9184;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.boton:hover {
+    background: rgba(104, 93, 193);
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.tabla:hover, .hover{
+	background: #157465;
+	color: white;
+	transition: 0.5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+
+}
+
+@media screen and (max-width: 1000px){
+	.tabla{
+		width: 45%;
+		max-width: none;
+		margin-bottom: 40px;
+		flex-grow: initial;
+
+	}
+}
+
+@media screen and (max-width: 700px){
+	.tabla{
+		width: 45%;
+		padding: 30px;
+	}
+	.tabla > h2{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.tabla{
+		width: 85%;
+		padding: 20px;
+
+	}
+}
+
+.social-items p{ text-align: justify;
+
+}
+
+.social-items ul{
+	list-style:none;
+	margin-top: 12px;
+}
+
+.social-items ul li{
+	display: inline-block;
+}
+
+.social-items ul li a {
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 10px 8px;
+	display: block;
+	transition: all 0.7s ease-in-out;
+}
+
+.social-items ul li a:hover{
+	color: skyblue;
+	transform: scale(1.4);
+}
